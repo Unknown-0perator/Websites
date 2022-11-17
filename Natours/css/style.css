@@ -191,8 +191,10 @@ body {
     .composition__photo:hover {
       outline: 1.5rem solid #55c57a;
       z-index: 11;
-      transform: scale(1.05);
+      transform: scale(1.05) translateY(0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5); }
+  .composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.95); }
 
 .header {
   height: 95vh;
