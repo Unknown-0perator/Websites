@@ -34,6 +34,13 @@
           $color-primary-dark
         );
       }
+      &-3 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        );
+      }
     }
   }
 
@@ -67,7 +74,12 @@
         url(../img/nat-6.jpg);
     }
     &-3 {
-      background-image: url(../img/nat-7.jpg);
+      background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        ),
+        url(../img/nat-7.jpg);
     }
   }
   &__heading {
@@ -97,6 +109,13 @@
         to right bottom,
         rgba($color-primary-light, 0.85),
         rgba($color-primary-dark, 0.85)
+      );
+    }
+    &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.85),
+        rgba($color-tertiary-dark, 0.85)
       );
     }
   }
