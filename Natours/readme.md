@@ -26,7 +26,7 @@ Install node and npm.
 Install SASS.
 
 ```sh
-npm install sass
+npm install node-sass
 ```
 
 Once done, you need to add the following script into package.json file.
