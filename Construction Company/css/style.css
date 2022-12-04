@@ -14,6 +14,23 @@ body {
   line-height: 1.7;
   color: gray; }
 
+.heading-primary {
+  color: white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  /*Prevent shacking of header after animation*/
+  margin-bottom: 6rem; }
+  .heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 1.5rem; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.7rem; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(0, 212, 255, 0.5), rgba(14, 14, 210, 0.5)), url(../../img/header-bg.jpg);
@@ -25,3 +42,13 @@ body {
     position: absolute;
     top: 4rem;
     left: 4rem; }
+  .header__logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff; }
+  .header__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
