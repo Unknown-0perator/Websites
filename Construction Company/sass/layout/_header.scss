@@ -2,12 +2,13 @@
   height: 95vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(#00d4ff, 0.5),
-      rgba(#0e0ed2, 0.5)
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
     ),
     url(../../img/header-bg.jpg);
   background-size: cover;
   background-position: top;
+  -webkit-clip-path: ellipse(100% 55% at 48% 44%);
   clip-path: ellipse(100% 55% at 48% 44%);
   position: relative;
 
@@ -17,9 +18,7 @@
     left: 4rem;
   }
   &__logo {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #fff;
+    height: 7rem;
   }
   &__text-box {
     position: absolute;
