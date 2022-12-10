@@ -1,3 +1,15 @@
 .section-about {
   padding: 15rem 10rem;
 }
+
+.section-features {
+  padding: 5rem 10rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(../../img/header-bg.jpg);
+  background-size: cover;
+  background-position: top;
+}
