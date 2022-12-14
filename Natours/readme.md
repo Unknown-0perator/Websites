@@ -1,5 +1,7 @@
 # NATOURS
 
+![Alt text]("img/favicon.png")
+
 ## _Outdoors is where life happens_
 
 Natours is a demo website for tour agency that built using CSS and HTML
