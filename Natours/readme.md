@@ -10,37 +10,39 @@ Natours is a demo website for tour agency that built using CSS and HTML
 - CSS (Sass framework)
 - Linea icons
 - Google fonts
+- NodeJS
 - Npm (To install Sass)
 - Visual Studio Code (code editor)
 
 ## Key features
 
-- Custome image outline
-- Custome radio button
+- Custom image outline
+- Custom radio button
 - Two-face cards
+- Responsive
 
 ## Installation
 
 To customize the Natours Download the codes from github
 Install node and npm.
-Install SASS.
+Install dependencies
 
 ```sh
-npm install node-sass
+npm install
 ```
 
-Once done, you need to add the following script into package.json file.
+Once done, run following command in your terminal
 
 ```sh
-"scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
-  }
+npm run start
 ```
 
-To use Sass, you need to run it.
+Now, Natours is ready to edit
+
+**_NOTE:_** To use the Natours without customization, run the following command in your terminal
 
 ```sh
-npm run compile:sass
+npm run build
 ```
 
 ## Copyright
