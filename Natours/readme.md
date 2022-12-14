@@ -1,6 +1,6 @@
 # NATOURS
 
-![Alt text]("img/favicon.png")
+![Logo](img/favicon.png)
 
 ## _Outdoors is where life happens_
 
