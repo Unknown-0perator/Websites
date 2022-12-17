@@ -168,6 +168,13 @@ body {
   .card__details {
     padding: 3rem; }
 
+.truncated > * {
+  display: none; }
+
+.truncated > p:first-child {
+  display: block;
+  cursor: pointer; }
+
 .section-about {
   padding: 15rem 10rem; }
 
@@ -274,7 +281,7 @@ body {
   .footer__link:hover, .footer__link:active {
     color: #009eff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
-    transform: rotate(5deg) scale(1.3); }
+    transform: scale(1.3); }
   .footer__copyright {
     border-top: 1px solid gray;
     padding-top: 2rem;

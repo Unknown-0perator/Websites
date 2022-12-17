@@ -1,0 +1,8 @@
+.truncated > * {
+  display: none;
+}
+
+.truncated > p:first-child {
+  display: block;
+  cursor: pointer;
+}
