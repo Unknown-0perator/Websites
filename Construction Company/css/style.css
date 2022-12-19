@@ -175,6 +175,18 @@ body {
   display: block;
   cursor: pointer; }
 
+.list {
+  list-style: none; }
+  .list__item:not(:last-child) {
+    margin-bottom: 2rem; }
+  .list__item--link *, .list__item--link:link, .list__item--link:visited {
+    text-decoration: none;
+    color: gray;
+    font-size: 2rem;
+    font-weight: 600; }
+  .list__item--link:hover, .list__item--link:active {
+    color: #009eff; }
+
 .section-about {
   padding: 15rem 10rem; }
 

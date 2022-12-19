@@ -1,0 +1,22 @@
+.list {
+  list-style: none;
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+    &--link {
+      *,
+      &:link,
+      &:visited {
+        text-decoration: none;
+        color: gray;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      &:hover,
+      &:active {
+        color: $color-primary;
+      }
+    }
+  }
+}
