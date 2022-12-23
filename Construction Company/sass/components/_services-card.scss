@@ -1,0 +1,17 @@
+.section-services__card {
+  background-image: url("../../img/gallery5.jpg");
+  background-size: cover;
+
+  &--icon {
+    width: 4rem;
+    height: 4rem;
+    color: black;
+  }
+
+  &--heading {
+    color: $color-primary;
+  }
+
+  &--paragraph {
+  }
+}

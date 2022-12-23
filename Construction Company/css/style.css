@@ -187,6 +187,16 @@ body {
   .list__item--link:hover, .list__item--link:active {
     color: #009eff; }
 
+.section-services__card {
+  background-image: url("../../img/gallery5.jpg");
+  background-size: cover; }
+  .section-services__card--icon {
+    width: 4rem;
+    height: 4rem;
+    color: black; }
+  .section-services__card--heading {
+    color: #009eff; }
+
 .section-about {
   padding: 15rem 10rem; }
 
