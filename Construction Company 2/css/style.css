@@ -13,3 +13,22 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
   line-height: 1.6; }
+
+.container {
+  display: grid;
+  grid-template-rows: 8rem 85vh repeat(3, min-content); }
+
+.navigation {
+  background-color: blue; }
+
+.header__detail {
+  background-color: red; }
+
+.gallery {
+  background-color: aqua; }
+
+.services {
+  background-color: orange; }
+
+.footer {
+  background-color: green; }
