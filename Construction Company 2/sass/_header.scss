@@ -1,9 +1,116 @@
 .header{
-    
+    font-size: 1.4rem;
+    height: 8rem;
+    background-color: #fff;
+    border-bottom: 1px solid #f4f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    &__detail{
+    &__heading{
+        font-size: 1.6rem;
+        margin-left: 3rem;
+        color: $color-primary;
 
-        background-color: red;
+
+        
+
     }
+
 }
+
+.search{
+
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &__input{
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        background-color: #f4f2f2;
+        border: none;
+        padding: 0.7rem 2rem;
+        border-radius: 100rem;
+        width: 90%;
+        margin-right: -3.25rem;
+        transition: all .2s;
+
+        &:focus{
+            outline: 1px solid $color-primary;
+            width: 100%;
+            background-color: #f0eeee;
+        }
+
+        &::-webkit-input-placeholder{
+            font-weight: 300;
+            color: #ccc;
+        }
+
+    }
+
+    &__input:active + &__button {
+        background-color: #f0eeee;
+      }
+
+    &__button{
+        border: none;
+        background-color: #f4f2f2;
+        &:focus{
+            outline: none;
+        }
+        &:active{
+            transform: translateY(2px);
+        }
+
+    }
+    &__icon{
+        height: 2rem;
+        width: 2rem;
+        fill: $color-primary;
+
+    }
+
+
+}
+
+.navigation{
+   
+
+    &__list{
+        list-style: none;
+        display: flex;
+        align-self: stretch;
+        align-items: center;
+        
+
+        &--item{
+            padding: 0 3rem;
+            cursor: pointer;
+        }
+
+
+    }
+    &__link,
+    &__link:link,
+    &__link:visited{
+        text-decoration: none;
+        color: $color-primary;
+        font-weight: 600;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        transition: all .2s;
+
+    }
+
+    &__link:hover{
+        color: $color-primary-dark;
+    }
+
+
+}
+
 
